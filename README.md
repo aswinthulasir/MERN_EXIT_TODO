@@ -1,4 +1,4 @@
-### ToDo App
+# ToDo App
 ## find it on the link given in the About Section (Hosted in vercel)
 
 ## For any Issues
@@ -22,7 +22,7 @@ Please contact if any issues occuring during the run/deployment/view at aswinthu
 [npm i]
 [nodemon app.js]
 
-# Controlled env available
+### Controlled env available
 
 Axios, Cors, React-Bootstrap, React-Router-Dom, Dotenv, nodemon - Dependencies
 
