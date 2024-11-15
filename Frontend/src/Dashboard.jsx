@@ -36,14 +36,14 @@ const Dashboard = () => {
 
     return (
         <div style={{ padding: '20px' }}>
-            <h2>Todo List Dashboard</h2>
+            <h2>Hello Guys ! Here is your ToDo</h2>
             <input
                 type="text"
                 value={newTodo}
                 onChange={(e) => setNewTodo(e.target.value)}
                 placeholder="Add a new task"
             />
-            <button onClick={handleAddTodo}>Add</button>
+            <button onClick={handleAddTodo} style={{padding:'20px, 0', marginLeft:'170px', backgroundColor:'#6096BA', width:'80px', color:'white'}}>Add</button>
             {todos.map((todo) => (
                 <TodoItem
                     key={todo._id}

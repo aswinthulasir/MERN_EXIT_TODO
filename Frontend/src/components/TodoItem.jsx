@@ -14,7 +14,7 @@ const TodoItem = ({ todo, onDelete, onStatusChange }) => {
             }}>
                 {todo.description}
             </span>
-            <button onClick={() => onDelete(todo._id)} style={{ marginLeft: 'auto' }}>Delete</button>
+            <button onClick={() => onDelete(todo._id)} style={{ marginLeft: 'auto' , backgroundColor: '#6096BA', color: 'white'}}>Delete</button>
         </div>
     );
 };
