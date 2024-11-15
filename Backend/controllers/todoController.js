@@ -17,12 +17,3 @@ exports.deleteTodo = async (req, res) => {
     res.status(204).end();
 };
 
-exports.updateTodoStatus = async (req, res) => {
-    const { status } = req.body;
-    const updatedTodo = await Todo.findByIdAndUpdate(
-        req.params.id,
-        { status },
-        { new: true }
-    );
-    res.json(updatedTodo);
-};

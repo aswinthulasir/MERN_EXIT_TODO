@@ -26,7 +26,7 @@ export default class NavbarComp extends Component {
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="ms-auto custom-listbar">
                 <Nav.Link as={Link} to="/">Home</Nav.Link>
-                <Nav.Link as={Link} to="/about">Add</Nav.Link>
+            
                 <Nav.Link as={Link} to="/login" style={{ color:'#6096ba'}} className='login-btn'>Login</Nav.Link>
 
               </Nav>
